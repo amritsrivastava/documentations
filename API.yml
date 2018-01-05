@@ -1,0 +1,71 @@
+# User
+dept:
+  query:
+    org: Organization Name
+  response:
+    dept_names: Name of the department
+    icon: icon name
+  error:
+    error_message:
+      1: org not found
+  method: get
+  task: read
+# User
+register:
+  query:
+    mobile: Mobile Number
+    name: User Name
+    subject: Complain subject
+    description: Complain description
+    location: location
+    image: file upload
+    date: Date of the Complain
+    time: Time of the Complain
+  response:
+    status: saved
+  error:
+    error_message:
+      1: type error
+      2: file upload error
+  method: get
+  task: write
+# User
+track:
+  query:
+    id: Complain id
+  response:
+    name: User Name
+    subject: Complain subject
+    description: Complain description
+    location: location
+    image: file upload
+    date: Date of the Complain
+    time: Time of the Complain
+    status: Resolving/Resolved/Unresolved
+    remark: if any (unresolved)
+    controller: Name of department controller
+  error:
+    error_message:
+      1: Complain not found
+  method: get
+  task: read
+# Controller
+resolve:
+  query:
+    id: Complain id
+    status: Resolving/Resolved/Unresolved
+    remark: if any (unresolved)
+    date: update Date
+    time: update time
+  error:
+    error_message:
+      1: internal error
+  method: get
+  task: write
+# Admin
+add:
+  query:
+    dept: department name
+    controller: Controller name
+    mobile: controller mobile number
+# will add more here (not clear sight)
