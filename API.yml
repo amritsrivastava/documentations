@@ -10,6 +10,7 @@ dept:
       1: org not found
   method: get
   task: read
+  endpoint: https://neuf9urk12.execute-api.us-east-1.amazonaws.com/prod/dept-fetch
 # User
 register:
   query:
@@ -65,7 +66,10 @@ resolve:
 # Admin
 add:
   query:
+    org: Organization name
     dept: department name
-    controller: Controller name
+    icon: icon name
+    person: Controller name
     mobile: controller mobile number
+  endpoint: https://neuf9urk12.execute-api.us-east-1.amazonaws.com/prod/dept-add
 # will add more here (not clear sight)
