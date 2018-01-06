@@ -10,10 +10,11 @@ dept:
       1: org not found
   method: get
   task: read
-  endpoint: https://neuf9urk12.execute-api.us-east-1.amazonaws.com/prod/dept-fetch
+  endpoint: https://ys1hxl97ga.execute-api.ap-south-1.amazonaws.com/dev/dept-fetch
 # User
 register:
   query:
+    id: Complain id
     mobile: Mobile Number
     name: User Name
     subject: Complain subject
@@ -30,6 +31,7 @@ register:
       2: file upload error
   method: get
   task: write
+  endpoint:  https://81fwd1on3h.execute-api.ap-south-1.amazonaws.com/dev/post
 # User
 track:
   query:
@@ -50,6 +52,7 @@ track:
       1: Complain not found
   method: get
   task: read
+  endpoint: https://81fwd1on3h.execute-api.ap-south-1.amazonaws.com/dev/track
 # Controller
 resolve:
   query:
@@ -67,9 +70,9 @@ resolve:
 add:
   query:
     org: Organization name
-    dept: department name
+    name: department name
     icon: icon name
     person: Controller name
     mobile: controller mobile number
-  endpoint: https://neuf9urk12.execute-api.us-east-1.amazonaws.com/prod/dept-add
+  endpoint: https://ys1hxl97ga.execute-api.ap-south-1.amazonaws.com/dev/dept-add
 # will add more here (not clear sight)
