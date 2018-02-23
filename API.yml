@@ -1,3 +1,11 @@
+# Org Fetch
+all data:
+  query:
+  response:
+  method: get
+  task: read
+  endpoint: https://vig0pr9xs8.execute-api.ap-south-1.amazonaws.com/dev
+  
 # User
 dept:
   query:
