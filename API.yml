@@ -5,7 +5,7 @@ all data:
   method: get
   task: read
   endpoint: https://vig0pr9xs8.execute-api.ap-south-1.amazonaws.com/dev
-  
+
 # User
 dept:
   query:
@@ -83,4 +83,26 @@ add:
     person: Controller name
     mobile: controller mobile number
   endpoint: https://ys1hxl97ga.execute-api.ap-south-1.amazonaws.com/dev/dept-add
+# Cleanliness
+  query:
+    area:
+    image:
+    desc:
+    notification:  #this is for showing some note having a default and its value can be chaged by controller
+
+#     Transportation
+  query:
+    bus_no:
+    image:
+    desc:
+    notification: #this is for showing some note having a default and its value can be chaged by controller
+
+#     Library
+  query:
+    area:
+    book_name:
+    book_author:
+    gener:
+    desc:
+    notification: #this is for showing some note having a default and its value can be chaged by controller
 # will add more here (not clear sight)
