@@ -85,24 +85,24 @@ add:
   endpoint: https://ys1hxl97ga.execute-api.ap-south-1.amazonaws.com/dev/dept-add
 # Cleanliness
   query:
-    area:
-    image:
-    desc:
-    notification:  #this is for showing some note having a default and its value can be chaged by controller
+    area: string datalist
+    image: file
+    desc: string
+    notification: string #this is for showing some note having a default and its value can be chaged by controller
 
 #     Transportation
   query:
-    bus_no:
-    image:
-    desc:
-    notification: #this is for showing some note having a default and its value can be chaged by controller
+    bus_no: int datalist
+    image: file
+    desc: string
+    notification: string #this is for showing some note having a default and its value can be chaged by controller
 
 #     Library
   query:
-    area:
-    book_name:
-    book_author:
-    gener:
-    desc:
-    notification: #this is for showing some note having a default and its value can be chaged by controller
+    area: string datalist
+    book_name: string
+    book_author: string
+    gener: string datalist
+    desc: string
+    notification: string #this is for showing some note having a default and its value can be chaged by controller
 # will add more here (not clear sight)
