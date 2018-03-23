@@ -1,0 +1,48 @@
+# Here are the form elements and their proptypes
+Card:
+  class: string
+  children: content #This is used to pass content inside Card
+
+Button:
+  primary: bool
+  value: string
+  id: string
+
+Chips:
+  value: string
+  class: string
+
+File:
+  name: string
+  accept: string #Define acceptable type of file by extension (e.g. .jpg,.png)
+  class: string
+  id: string
+
+Input:
+  placeholder: string
+  type: string
+  name: string
+  class: string
+  id: string
+  list: string  #for datalist
+  autoComplete: bool
+  required: bool
+
+Note:
+  class: string
+  title: string #title of note
+  desc: string #description of note
+
+Select:
+  id: string
+  class: string
+  name: string
+  children: content #This is used to pass options inside Select Box
+
+Textarea:
+  placeholder: string
+  value: string
+  class: string
+  id: string
+  rows: int
+  cols: int
