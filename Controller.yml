@@ -1,0 +1,31 @@
+#these are the props that can pass in Controller layout
+CleanlinessController:
+  name: string
+  mobile: string
+  area: string
+  desc: string
+  imgsrc: string
+  resolved: bool
+  idStatus: string
+  idComment: string
+
+LibraryController:
+  name: string
+  mobile: string
+  area: string
+  bookName: string
+  bookAuthor: string
+  desc: string
+  processed: bool
+  idStatus: string
+  idComment: string
+
+TransportationController:
+  name: string
+  mobile: string
+  busNo: int
+  desc: string
+  imgsrc: string
+  processed: bool
+  idStatus: string
+  idComment: string
